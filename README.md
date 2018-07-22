@@ -10,10 +10,16 @@ For a demo, please visit here: https://codepen.io/zeknoss/pen/vaxGKe
 To customize the look and feel of the component, just edit the vue component file, or the provided standalone vue-magnifier.scss or the vue-magnifier.css file.
 ```
 
-## Load standalone from local
+## Load standalone from CDN
 ``` html
 <script src="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@1.0.0/dist/js/vue-magnifier.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@1.0.0/dist/css/vue-magnifier.css" media="screen" />
+```
+
+## Load standalone from local
+``` html
+<script src="some/path/to/js/vue-magnifier.js"></script>
+<link rel="stylesheet" type="text/css" href="some/path/to/css/vue-magnifier.css" media="screen" />
 ```
 
 ## Build Setup
