@@ -1,0 +1,71 @@
+
+.vue-magnifier-container {
+    position: relative;
+}
+    .vue-magnifier-container .preview {
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 50% 50%;
+      display: block;
+      clear: both;
+      margin: 0 auto;
+      cursor: none;
+    }
+      .vue-magnifier-container .preview .magnifying-glass {
+        position: absolute;
+        border: 5px solid #8FD6EF;
+        border-radius: 50%;
+        cursor: none;
+        width: 150px;
+        height: 150px;
+        transform: translate(-75px, -75px);
+        background: #fff no-repeat;
+        display: none;
+        pointer-events: none;
+      }
+      .vue-magnifier-container .preview:hover .magnifying-glass {
+        display: block;
+      }
+      @media only screen and (max-width: 320px) {
+        .vue-magnifier-container .preview {
+          width: 130px;
+          height: 233px;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        .vue-magnifier-container .preview {
+          width: 170px;
+          height: 300px;
+        }
+      }
+      @media only screen and (min-width: 481px) {
+        .vue-magnifier-container .preview {
+          width: 260px;
+          height: 450px;
+        }
+      }
+      @media only screen and (min-width: 481px) and (min-height: 769px) and (max-width: 1023px) {
+        .vue-magnifier-container .preview {
+          width: 260px;
+          height: 520px;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        .vue-magnifier-container .preview {
+          width: 260px;
+          height: 450px;
+        }
+      }
+      @media only screen and (min-width: 1280px) {
+        .vue-magnifier-container .preview {
+          width: 300px;
+          height: 520px;
+        }
+      }
+      @media only screen and (min-width: 1280px) and (max-height: 769px) {
+        .vue-magnifier-container .preview {
+          width: 245px;
+          height: 430px;
+        }
+      }
