@@ -1,6 +1,12 @@
-# test-project
+# Vue-Magnifier: a simple VueJS 2.x component
 
-> A Vue.js project
+> Vue Magnifier is free component for basic image zoom practices.
+> You can use it as follorws:
+```
+<vue-magnifier src="default-image-source" src-large="large-image-source"></vue-magnifier>
+
+To customize the look and feel of the component, just edit the vue component file, or the provided standalone vue-magnifier.scss or the vue-magnifier.css file.
+```
 
 ## Build Setup
 
