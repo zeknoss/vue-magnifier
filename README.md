@@ -12,8 +12,8 @@ To customize the look and feel of the component, just edit the vue component fil
 
 ## Load standalone from CDN
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v1.0.0/dist/js/vue-magnifier.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v1.0.0/dist/css/vue-magnifier.css" media="screen" />
+<script src="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v0.2.0/dist/js/vue-magnifier.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v0.2.0/dist/css/vue-magnifier.css" media="screen" />
 ```
 
 ## Load standalone from local
