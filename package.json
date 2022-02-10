@@ -15,7 +15,7 @@
     "@vue/cli-service": "~4.5.0",
     "vue-template-compiler": "^2.6.11",
     "sass-loader": "^10.0.2",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "browserslist": [
     "> 1%",
